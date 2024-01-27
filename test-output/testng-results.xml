@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T02:27:21 BDT" name="Default suite" finished-at="2024-01-27T02:27:33 BDT" duration-ms="11302">
+  <suite started-at="2024-01-27T19:29:21 BDT" name="Default suite" finished-at="2024-01-27T19:29:39 BDT" duration-ms="18103">
     <groups>
     </groups>
-    <test started-at="2024-01-27T02:27:21 BDT" name="Default test" finished-at="2024-01-27T02:27:33 BDT" duration-ms="11302">
-      <class name="testcases.Test1">
-        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.Test1@7b205dbd]" started-at="2024-01-27T02:27:21 BDT" name="openABrowser" finished-at="2024-01-27T02:27:24 BDT" duration-ms="2433" status="PASS">
+    <test started-at="2024-01-27T19:29:21 BDT" name="Default test" finished-at="2024-01-27T19:29:39 BDT" duration-ms="18103">
+      <class name="testcases.TestLogin">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestLogin@14fc1f0]" started-at="2024-01-27T19:29:21 BDT" name="openABrowser" finished-at="2024-01-27T19:29:28 BDT" duration-ms="6519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openABrowser -->
-        <test-method signature="test()[pri:0, instance:testcases.Test1@7b205dbd]" started-at="2024-01-27T02:27:24 BDT" name="test" finished-at="2024-01-27T02:27:32 BDT" duration-ms="8561" status="PASS">
+        <test-method signature="test()[pri:0, instance:testcases.TestLogin@14fc1f0]" started-at="2024-01-27T19:29:28 BDT" name="test" finished-at="2024-01-27T19:29:39 BDT" duration-ms="11098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.Test1@7b205dbd]" started-at="2024-01-27T02:27:32 BDT" name="quiteBrowser" finished-at="2024-01-27T02:27:33 BDT" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestLogin@14fc1f0]" started-at="2024-01-27T19:29:39 BDT" name="quiteBrowser" finished-at="2024-01-27T19:29:39 BDT" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quiteBrowser -->
-      </class> <!-- testcases.Test1 -->
+      </class> <!-- testcases.TestLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
