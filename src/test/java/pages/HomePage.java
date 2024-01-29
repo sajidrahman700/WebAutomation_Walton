@@ -15,5 +15,12 @@ public class HomePage extends BasePage{
 	public By logoutDropdown_Menu = By.xpath("//a[normalize-space()='Logout']");
 	
 	
+	//Product Menu Locator
+	public By refrigeratorFreezerDropdown = By.xpath("//a[@id='25']");
+	public By nonFrostRefrigeratorDropdownMenu = By.xpath("//a[normalize-space()='Non-Frost Refrigerator']");
+	
+	
+	
+	
 
 }
