@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeClass;
 
 public class DriverSetup {
 	
-	public static String browserName = System.getProperty("browser", "Edge");
+	public static String browserName = System.getProperty("browser", "Chrome");
     private static final ThreadLocal<WebDriver>  LOCAL_BROWSER = new ThreadLocal<>();
     
     

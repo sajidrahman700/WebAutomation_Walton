@@ -11,6 +11,9 @@ public class HomePage extends BasePage{
 	public By registerDropdown_Menu = By.xpath("//a[normalize-space()='Register']");
 	public By loginDropdown_Menu = By.xpath("//a[normalize-space()='Login']");
 	
+	public By myAccountDropdown_Menu = By.xpath("//a[contains(text(),'My Account')]");
+	public By logoutDropdown_Menu = By.xpath("//a[normalize-space()='Logout']");
+	
 	
 
 }
