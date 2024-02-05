@@ -1,153 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-29T21:20:17 BDT" name="Default suite" finished-at="2024-01-29T21:20:45 BDT" duration-ms="28380">
+  <suite started-at="2024-02-06T01:22:55 BDT" name="Default suite" finished-at="2024-02-06T01:23:14 BDT" duration-ms="18109">
     <groups>
     </groups>
-    <test started-at="2024-01-29T21:20:17 BDT" name="Default test" finished-at="2024-01-29T21:20:45 BDT" duration-ms="28380">
-      <class name="testcases.TestLogin">
-        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestLogin@a4add54]" started-at="2024-01-29T21:20:17 BDT" name="openABrowser" finished-at="2024-01-29T21:20:19 BDT" duration-ms="2316" status="PASS">
+    <test started-at="2024-02-06T01:22:55 BDT" name="Default test" finished-at="2024-02-06T01:23:14 BDT" duration-ms="18109">
+      <class name="testcases.TestProductAddAndCheckout">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestProductAddAndCheckout@1458ed9c]" started-at="2024-02-06T01:22:55 BDT" name="openABrowser" finished-at="2024-02-06T01:22:58 BDT" duration-ms="2178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openABrowser -->
-        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@a4add54]" started-at="2024-01-29T21:20:19 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserData" finished-at="2024-01-29T21:20:33 BDT" duration-ms="13818" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[favevi6671@konican.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ergwe4776]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[×
-Warning: No match for E-Mail Address and/or Password.]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testProduct()[pri:0, instance:testcases.TestProductAddAndCheckout@1458ed9c]" started-at="2024-02-06T01:22:58 BDT" name="testProduct" finished-at="2024-02-06T01:23:13 BDT" duration-ms="15374" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginWithInvalidCredentials -->
-        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@a4add54]" started-at="2024-01-29T21:20:33 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserData" finished-at="2024-01-29T21:20:35 BDT" duration-ms="2471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dfdr@dhr]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Bd@12345678]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[×
-Warning: No match for E-Mail Address and/or Password.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithInvalidCredentials -->
-        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@a4add54]" started-at="2024-01-29T21:20:35 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserData" finished-at="2024-01-29T21:20:38 BDT" duration-ms="2287" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[y587@58h5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ergwe4776]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[×
-Warning: No match for E-Mail Address and/or Password.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithInvalidCredentials -->
-        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@a4add54]" started-at="2024-01-29T21:20:38 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserData" finished-at="2024-01-29T21:20:40 BDT" duration-ms="2258" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Bd@12345678]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[×
-Warning: No match for E-Mail Address and/or Password.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithInvalidCredentials -->
-        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@a4add54]" started-at="2024-01-29T21:20:40 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserData" finished-at="2024-01-29T21:20:42 BDT" duration-ms="2389" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[favevi6671@konican.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[×
-Warning: No match for E-Mail Address and/or Password.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithInvalidCredentials -->
-        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@a4add54]" started-at="2024-01-29T21:20:42 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserData" finished-at="2024-01-29T21:20:45 BDT" duration-ms="2259" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[×
-Warning: No match for E-Mail Address and/or Password.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestLogin@a4add54]" started-at="2024-01-29T21:20:45 BDT" name="quiteBrowser" finished-at="2024-01-29T21:20:45 BDT" duration-ms="457" status="PASS">
+        </test-method> <!-- testProduct -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestProductAddAndCheckout@1458ed9c]" started-at="2024-02-06T01:23:13 BDT" name="quiteBrowser" finished-at="2024-02-06T01:23:14 BDT" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quiteBrowser -->
-      </class> <!-- testcases.TestLogin -->
+      </class> <!-- testcases.TestProductAddAndCheckout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,15 +1,18 @@
 package pages;
 
-import io.qameta.allure.Allure;
+import static utilities.DriverSetup.getBrowser;
+
+import java.io.ByteArrayInputStream;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
-import java.io.ByteArrayInputStream;
-
-import static utilities.DriverSetup.getBrowser;
+import io.qameta.allure.Allure;
 
 public class BasePage {
 
@@ -19,7 +22,7 @@ public class BasePage {
 	}
 
 	public void clickOnElement(By locator) {
-		getElement(locator).click();
+		 getElement(locator).click();
 	}
 
 	public void writeOnAElement(By locator, String text) {
@@ -42,5 +45,16 @@ public class BasePage {
 	 public void takeScreenShot(String name){
 	        Allure.addAttachment(name, new ByteArrayInputStream(((TakesScreenshot)getBrowser()).getScreenshotAs(OutputType.BYTES)));
 	    }
+	 
+	 public void scrollToAElement(By locator) {
+		 JavascriptExecutor js = (JavascriptExecutor) getBrowser();
+		 js.executeScript("arguments[0].scrollIntoView();", getElement(locator)); 
+	 }
+	 
+	 public void selectDropdown(By locator, int number) {
+		 Select select = new Select(getElement(locator));
+		 getElement(locator).click();
+		 select.selectByIndex(number);
+	 }
 
 }
