@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 
 public class CheckoutPage extends BasePage {
 	
-	public By checkoutButton = By.xpath("//a[contains(text(),'Checkout')]");
 	public By paymentAddressContinueButton = By.xpath("//input[@id='button-payment-address']");
 	public By deliveryAddressContinueButton = By.xpath("//input[@id='button-shipping-address']");
 	public By pickupFromPlazaRadioButton = By.xpath("//input[@id='pickup.pickup']");
@@ -13,8 +12,6 @@ public class CheckoutPage extends BasePage {
 	public By addCommentInputField= By.xpath("//div[@class='tab-content']//textarea[@name='comment']");
 	public By termsAndConditionCheckbox = By.xpath("//input[@name='agree']");
 	public By paymentMethodContinueButton = By.xpath("//input[@id='button-payment-method']");
-	
-	
 	
 
 }

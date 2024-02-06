@@ -15,7 +15,7 @@ public class TestProductAdd extends DriverSetup {
 	HomePage homePage = new HomePage();
 	
 	@Test
-	public void testProduct() throws InterruptedException {
+	public void testSelectProduct(){
 		
 		loginPage.doLogin(loginPage.email, loginPage.password);
 		homePage.clickOnElement(homePage.refrigeratorFreezerDropdown);
@@ -23,6 +23,11 @@ public class TestProductAdd extends DriverSetup {
 		productPage.scrollToAElement(productPage.product_WNM2A7GDELXX);
 		productPage.clickOnElement(productPage.product_WNM2A7GDELXX);
 		Assert.assertEquals(productPage.getElementText(productPage.productTitle_WNM2A7GDELXX)," WNM-2A7-GDEL-XX");
+		
+	}
+	
+	@Test
+	public void testAddToCart() throws InterruptedException{
 		
 		productPage.clickOnElement(productPage.buyNowButton);
 		productPage.selectDropdown(productPage.selectVersionTypeColour_Dropdown,1);
@@ -34,9 +39,6 @@ public class TestProductAdd extends DriverSetup {
 		//productPage.clickOnElement(productPage.shoppingCartButton);
 		
 		Thread.sleep(5000);
-		
-		
-		
 		
 		
 	}

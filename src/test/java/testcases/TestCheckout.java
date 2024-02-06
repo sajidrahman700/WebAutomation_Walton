@@ -1,5 +1,13 @@
 package testcases;
 
-public class TestCheckout {
+import utilities.DriverSetup;
+
+public class TestCheckout extends DriverSetup{
+	
+	public void testCheckout(){
+		
+		
+	}
+	
 
 }

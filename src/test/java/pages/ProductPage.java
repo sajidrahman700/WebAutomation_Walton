@@ -17,6 +17,5 @@ public class ProductPage extends BasePage {
 	public By quantityInputField = By.xpath("//input[@id='quantity']");
 	public By addToCartButton = By.xpath("//button[normalize-space()='Add To Cart']");
 	public By shoppingCartButton = By.xpath("//a[normalize-space()='Shopping Cart']");
-	public By removeProduct = By.xpath("//i[@class='fa fa-remove']");
 
 }
