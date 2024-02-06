@@ -56,5 +56,16 @@ public class BasePage {
 		 getElement(locator).click();
 		 select.selectByIndex(number);
 	 }
+	 
+	 public void clearField(By locator) {
+		 getElement(locator).clear();
+	 }
+	 
+	 public void enterNumberOnAElement(By locator, int number) {
+		 String text = String.valueOf(number);	
+		 getElement(locator).sendKeys(text);
+		}
+	 
+	 
 
 }
