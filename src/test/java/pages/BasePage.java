@@ -66,6 +66,9 @@ public class BasePage {
 		 getElement(locator).sendKeys(text);
 		}
 	 
+	 public String getAttributeValue(By locator, String a) {
+			return getElement(locator).getAttribute(a);
+		}
 	 
 
 }
