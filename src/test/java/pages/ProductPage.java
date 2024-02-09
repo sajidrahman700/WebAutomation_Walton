@@ -17,5 +17,20 @@ public class ProductPage extends BasePage {
 	public By quantityInputField = By.xpath("//input[@id='quantity']");
 	public By addToCartButton = By.xpath("//button[normalize-space()='Add To Cart']");
 	public By shoppingCartButton = By.xpath("//a[normalize-space()='Shopping Cart']");
+	public By successAddToCartAlert = By.xpath("//div[@class='alert alert-success']");
+	
+	
+	public void addToCart(By locator, int colour, int district, int plaza, int quantity) {
+		clickOnElement(locator);
+		clickOnElement(buyNowButton);
+		selectDropdown(selectVersionTypeColour_Dropdown, colour);
+		selectDropdown(selectDistrict_Dropdown, district);
+		selectDropdown(selectPlaza_Dropdown, plaza);
+		clearField(quantityInputField);
+		enterNumberOnAElement(quantityInputField, quantity);
+		clickOnElement(addToCartButton);
+		
+		
+	}
 
 }

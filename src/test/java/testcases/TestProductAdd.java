@@ -28,6 +28,12 @@ public class TestProductAdd extends DriverSetup {
 	
 	@Test
 	public void testAddToCart() throws InterruptedException{
+		loginPage.doLogin(loginPage.email, loginPage.password);
+		homePage.clickOnElement(homePage.refrigeratorFreezerDropdown);
+		homePage.clickOnElement(homePage.nonFrostRefrigeratorDropdownMenu);
+		productPage.scrollToAElement(productPage.product_WNM2A7GDELXX);
+		productPage.clickOnElement(productPage.product_WNM2A7GDELXX);
+		
 		
 		productPage.clickOnElement(productPage.buyNowButton);
 		productPage.selectDropdown(productPage.selectVersionTypeColour_Dropdown,1);
@@ -35,11 +41,9 @@ public class TestProductAdd extends DriverSetup {
 		productPage.selectDropdown(productPage.selectPlaza_Dropdown,1);
 		productPage.clearField(productPage.quantityInputField);
 		productPage.enterNumberOnAElement(productPage.quantityInputField,2);
-		//productPage.clickOnElement(productPage.addToCartButton);
-		//productPage.clickOnElement(productPage.shoppingCartButton);
-		
-		Thread.sleep(5000);
-		
+		productPage.clickOnElement(productPage.addToCartButton);
+		Assert.assertEquals(productPage.getElementText(productPage.successAddToCartAlert),"×\n" + "Success: You have added WNM-2A7-GDEL-XX to your shopping cart!");
+
 		
 	}
 	
