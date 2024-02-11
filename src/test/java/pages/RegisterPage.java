@@ -1,5 +1,34 @@
 package pages;
 
-public class RegisterPage {
+import org.openqa.selenium.By;
+
+public class RegisterPage extends BasePage {
+	
+	public String registerPageURL= "https://eplaza.waltonbd.com/index.php?route=account/register";
+	
+	
+	public By firstNameInputField = By.xpath("//input[@id='firstname']");
+	public By lastNameInputField = By.xpath("//input[@id='lastname']");
+	public By emailInputField = By.xpath("//input[@id='email']");
+	public By mobileInputField = By.xpath("//input[@id='telephone']");
+	public By addressInputField = By.xpath("//input[@id='address_1']");
+	public By passwordInputField = By.xpath("//input[@id='password']");
+	public By passwordConfirmInputField = By.xpath("//input[@id='confirm']");
+	public By privacyPolicyCheckbox = By.xpath("//input[@name='agree']");
+	public By continueButton = By.xpath("//button[normalize-space()='Continue']");
+	
+
+	public By firstNameErrorMsg = By.xpath("//span[normalize-space()='First Name must be between 2 and 32 characters!']");
+	public By lastNameErrorMsg = By.xpath("//span[normalize-space()='Last Name must be between 2 and 32 characters!']");
+	public By emailErrorMsg = By.xpath("//span[normalize-space()='E-Mail Address does not appear to be valid!']");
+	public By mobileErrorMsg = By.xpath("//body/div[@class='container']/div[@class='row']/form[@role='form']/div[@class='row']/div[@class='col-sm-12 col-md-12 col-lg-12']/div[@class='panel panel-default']/div[@class='panel-body']/div[1]/div[1]/div[1]/span[1]");
+	public By addressErrorMsg = By.xpath("//span[normalize-space()='Address must be between 3 and 128 characters!']");
+	public By passwordErrorMsg_TooShort = By.xpath("//span[normalize-space()='Password too short.']");
+	public By passwordErrorMsg_UppercaseLeter = By.xpath("//span[contains(text(),'Password must include at least one uppercase lette')]");
+	public By passwordErrorMsg_LowercaseLetter = By.xpath("//span[contains(text(),'Password must include at least one lowercase lette')]");
+	public By passwordErrorMsg_Number = By.xpath("//span[contains(text(),'Password must include at least one lowercase lette')]");
+	public By passwordErrorMsg_SpecialCharacter = By.xpath("//span[contains(text(),'Password must include at least one special charact')]");
+	public By passwordConfirmErrorMsg = By.xpath("//span[normalize-space()='Password confirmation does not match password!']");
+	public By policyWarningAlert = By.xpath("//div[@class='alert alert-danger']");
 
 }
