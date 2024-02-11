@@ -42,5 +42,18 @@ public class TestShoppingCart extends DriverSetup{
 		shoppingCartPage.clickOnElement(shoppingCartPage.updateQuantity);
 		Assert.assertEquals(shoppingCartPage.getAttributeValue(shoppingCartPage.quantityInputField,"value"), 1);
 	}
+	
+	@Test
+	public void testRemoveProductFromCart() {
+		loginPage.doLogin(loginPage.email, loginPage.password);
+		homePage.clickOnElement(homePage.refrigeratorFreezerDropdown);
+		homePage.clickOnElement(homePage.nonFrostRefrigeratorDropdownMenu);
+		productPage.scrollToAElement(productPage.product_WNM2A7GDELXX);
+		productPage.addToCart(productPage.product_WNM2A7GDELXX, 1, 1, 1, 2);
+		productPage.clickOnElement(productPage.shoppingCartButton);
+		shoppingCartPage.clickOnElement(shoppingCartPage.removeProduct);
+		Assert.assertTrue(shoppingCartPage.getElement(shoppingCartPage.cartEmptyAlert).isDisplayed());
+		
+	}
 
 }

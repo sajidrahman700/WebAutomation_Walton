@@ -9,6 +9,7 @@ public class ShoppingCartPage extends BasePage{
 	public By updateQuantity = By.xpath("//input[@title='Update']");
 	public By checkoutButton = By.xpath("//a[contains(text(),'Checkout')]");
 	public By productName = By.xpath("//tbody//tr//td[@class='name']");
+	public By cartEmptyAlert = By.xpath("//div[@class='alert']");
 	
 	
 

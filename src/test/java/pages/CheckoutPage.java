@@ -10,8 +10,10 @@ public class CheckoutPage extends BasePage {
 	public By freeShippingRadioButton = By.xpath("//input[@id='free.free']");
 	public By deliveryMethodContinueButton = By.xpath("//input[@id='button-shipping-method']");
 	public By addCommentInputField= By.xpath("//div[@class='tab-content']//textarea[@name='comment']");
-	public By termsAndConditionCheckbox = By.xpath("//input[@name='agree']");
+	public By cashOnDeliveryPaymentMethod = By.xpath("//img[@title='Pay with Cash On Delivery']");
 	public By paymentMethodContinueButton = By.xpath("//input[@id='button-payment-method']");
+	public By confirmOrderButton = By.xpath("//input[@id='button-confirm']");
+	public By productModelName = By.xpath("//td[normalize-space()='WNM-2A7-GDEL-XX']");
 	
 
 }

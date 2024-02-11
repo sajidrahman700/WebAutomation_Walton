@@ -3,6 +3,7 @@ package pages;
 import static utilities.DriverSetup.getBrowser;
 
 import java.io.ByteArrayInputStream;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -10,7 +11,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.qameta.allure.Allure;
 
@@ -69,5 +72,16 @@ public class BasePage {
 	 public String getAttributeValue(By locator, String a) {
 			return getElement(locator).getAttribute(a);
 		}
+	 
+	 public void waitForElementToBeClickable(By locator) {
+		 WebDriverWait wait = new WebDriverWait(getBrowser(), Duration.ofSeconds(10));
+		 wait.until(ExpectedConditions.elementToBeClickable(locator));
+	}
+	 
+	 
+	 public void waitForElementVisibility(By locator) {
+		 WebDriverWait wait = new WebDriverWait(getBrowser(), Duration.ofSeconds(10));
+		 wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
 	 
 }
