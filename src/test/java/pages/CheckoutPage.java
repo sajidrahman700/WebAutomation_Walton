@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class CheckoutPage extends BasePage {
 	
-	public By paymentAddressContinueButton = By.xpath("//input[@id='button-payment-address']");
+	public By billingAddressContinueButton = By.xpath("//input[@id='button-payment-address']");
 	public By deliveryAddressContinueButton = By.xpath("//input[@id='button-shipping-address']");
 	public By pickupFromPlazaRadioButton = By.xpath("//input[@id='pickup.pickup']");
 	public By freeShippingRadioButton = By.xpath("//input[@id='free.free']");

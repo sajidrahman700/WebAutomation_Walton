@@ -70,5 +70,4 @@ public class BasePage {
 			return getElement(locator).getAttribute(a);
 		}
 	 
-
 }
