@@ -105,7 +105,7 @@ public class TestLogin extends DriverSetup {
 	}
 	
 	
-	@Test(dataProvider = "invalidUserData", dataProviderClass = DataSet.class)
+	@Test(dataProvider = "invalidUserDataForLogin", dataProviderClass = DataSet.class)
 	public void testLoginWithInvalidCredentials(String email, String password, String displayErrorMsg) {
 		getBrowser().get(homePage.homePageURL);
 		homePage.clickOnElement(homePage.myAccountDropdown);
