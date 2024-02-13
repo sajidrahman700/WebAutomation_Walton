@@ -13,7 +13,7 @@ public class CheckoutPage extends BasePage {
 	public By cashOnDeliveryPaymentMethod = By.xpath("//img[@title='Pay with Cash On Delivery']");
 	public By paymentMethodContinueButton = By.xpath("//input[@id='button-payment-method']");
 	public By confirmOrderButton = By.xpath("//input[@id='button-confirm']");
-	public By productModelName = By.xpath("//td[normalize-space()='WNM-2A7-GDEL-XX']");
+	public By productName = By.xpath("//a[normalize-space()='WNM-2A7-GDEL-XX']");
 	
 
 }

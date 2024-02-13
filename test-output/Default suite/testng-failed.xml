@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TestRegister">
+      <class name="testcases.TestCheckout">
         <methods>
           <include name="openABrowser"/>
           <include name="quiteBrowser"/>
-          <include name="testWithInvalidCredential" invocation-numbers="1 2 4 5 9 11 12"/>
+          <include name="testCheckout"/>
         </methods>
-      </class> <!-- testcases.TestRegister -->
+      </class> <!-- testcases.TestCheckout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

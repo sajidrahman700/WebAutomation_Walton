@@ -79,9 +79,9 @@ public class BasePage {
 	}
 	 
 	 
-	 public void waitForElementVisibility(By locator) {
+	 public void waitForElementPresence(By locator) {
 		 WebDriverWait wait = new WebDriverWait(getBrowser(), Duration.ofSeconds(10));
-		 wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		 wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 	}
 	 
 }

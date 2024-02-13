@@ -22,6 +22,7 @@ public class TestProductAdd extends DriverSetup {
 		homePage.clickOnElement(homePage.nonFrostRefrigeratorDropdownMenu);
 		productPage.scrollToAElement(productPage.product_WNM2A7GDELXX);
 		productPage.clickOnElement(productPage.product_WNM2A7GDELXX);
+		productPage.waitForElementToBeClickable(productPage.buyNowButton);
 		Assert.assertEquals(productPage.getElementText(productPage.productTitle_WNM2A7GDELXX)," WNM-2A7-GDEL-XX");
 		
 	}

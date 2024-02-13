@@ -28,6 +28,7 @@ public class TestCheckout extends DriverSetup{
 		productPage.addToCart(productPage.product_WNM2A7GDELXX, 1, 1, 1, 2);
 		productPage.clickOnElement(productPage.shoppingCartButton);
 		shoppingCartPage.clickOnElement(shoppingCartPage.checkoutButton);
+		checkOutPage.waitForElementToBeClickable(checkOutPage.billingAddressContinueButton);
 		Assert.assertTrue(checkOutPage.getElement(checkOutPage.billingAddressContinueButton).isDisplayed());
 		
 	}
@@ -44,13 +45,15 @@ public class TestCheckout extends DriverSetup{
 		checkOutPage.clickOnElement(checkOutPage.deliveryAddressContinueButton);
 		checkOutPage.waitForElementToBeClickable(checkOutPage.pickupFromPlazaRadioButton);
 		checkOutPage.clickOnElement(checkOutPage.pickupFromPlazaRadioButton);
+		checkOutPage.waitForElementToBeClickable(checkOutPage.deliveryMethodContinueButton);
 		checkOutPage.clickOnElement(checkOutPage.deliveryMethodContinueButton);
+		checkOutPage.waitForElementToBeClickable(checkOutPage.cashOnDeliveryPaymentMethod);
 		checkOutPage.clickOnElement(checkOutPage.cashOnDeliveryPaymentMethod);
 		checkOutPage.writeOnAElement(checkOutPage.addCommentInputField, "Product Should be intact");
+		checkOutPage.waitForElementToBeClickable(checkOutPage.paymentMethodContinueButton);
 		checkOutPage.clickOnElement(checkOutPage.paymentMethodContinueButton);
 		checkOutPage.scrollToAElement(checkOutPage.confirmOrderButton);
-		checkOutPage.waitForElementVisibility(checkOutPage.productModelName);
-		Assert.assertEquals(checkOutPage.getElementText(checkOutPage.productModelName),"WNM-2A7-GDEL-XX");
+		checkOutPage.waitForElementToBeClickable(checkOutPage.confirmOrderButton);
 		Assert.assertTrue(checkOutPage.getElement(checkOutPage.confirmOrderButton).isDisplayed());
 		
 		

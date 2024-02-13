@@ -1,17 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="12" failed="7" skipped="0">
+<testng-results ignored="0" total="33" passed="25" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-12T23:31:30 BDT" name="Default suite" finished-at="2024-02-12T23:36:13 BDT" duration-ms="283109">
+  <suite started-at="2024-02-13T12:15:49 BDT" name="Suite" finished-at="2024-02-13T12:24:57 BDT" duration-ms="548357">
     <groups>
     </groups>
-    <test started-at="2024-02-12T23:31:30 BDT" name="Default test" finished-at="2024-02-12T23:36:13 BDT" duration-ms="283109">
-      <class name="testcases.TestRegister">
-        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:31:30 BDT" name="openABrowser" finished-at="2024-02-12T23:31:32 BDT" duration-ms="2235" status="PASS">
+    <test started-at="2024-02-13T12:15:49 BDT" name="Test" finished-at="2024-02-13T12:24:57 BDT" duration-ms="548357">
+      <class name="testcases.TestLogin">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:15:49 BDT" name="openABrowser" finished-at="2024-02-13T12:16:02 BDT" duration-ms="12395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openABrowser -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:31:32 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:31:47 BDT" duration-ms="14857" status="PASS">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:15:49 BDT" name="openABrowser" finished-at="2024-02-13T12:15:58 BDT" duration-ms="9266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:15:59 BDT" name="testLoginWithValidCredentials" finished-at="2024-02-13T12:16:28 BDT" duration-ms="29575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:16:02 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserDataForLogin" finished-at="2024-02-13T12:16:26 BDT" duration-ms="24022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[favevi6671@konican.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ergwe4776]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[×
+Warning: No match for E-Mail Address and/or Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:16:26 BDT" name="quiteBrowser" finished-at="2024-02-13T12:16:31 BDT" duration-ms="5227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:16:28 BDT" name="quiteBrowser" finished-at="2024-02-13T12:16:31 BDT" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:16:31 BDT" name="openABrowser" finished-at="2024-02-13T12:16:33 BDT" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:16:33 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserDataForLogin" finished-at="2024-02-13T12:16:53 BDT" duration-ms="19714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dfdr@dhr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bd@12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[×
+Warning: No match for E-Mail Address and/or Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:16:53 BDT" name="quiteBrowser" finished-at="2024-02-13T12:16:57 BDT" duration-ms="3837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:16:57 BDT" name="openABrowser" finished-at="2024-02-13T12:17:00 BDT" duration-ms="3544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:00 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserDataForLogin" finished-at="2024-02-13T12:17:16 BDT" duration-ms="15189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[y587@58h5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ergwe4776]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[×
+Warning: No match for E-Mail Address and/or Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:16 BDT" name="quiteBrowser" finished-at="2024-02-13T12:17:17 BDT" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:17 BDT" name="openABrowser" finished-at="2024-02-13T12:17:19 BDT" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:19 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserDataForLogin" finished-at="2024-02-13T12:17:39 BDT" duration-ms="20371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bd@12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[×
+Warning: No match for E-Mail Address and/or Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:39 BDT" name="quiteBrowser" finished-at="2024-02-13T12:17:40 BDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:40 BDT" name="openABrowser" finished-at="2024-02-13T12:17:42 BDT" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:42 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserDataForLogin" finished-at="2024-02-13T12:17:55 BDT" duration-ms="12922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[favevi6671@konican.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[×
+Warning: No match for E-Mail Address and/or Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:55 BDT" name="quiteBrowser" finished-at="2024-02-13T12:17:55 BDT" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:55 BDT" name="openABrowser" finished-at="2024-02-13T12:17:56 BDT" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:17:56 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidUserDataForLogin" finished-at="2024-02-13T12:18:08 BDT" duration-ms="11489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[×
+Warning: No match for E-Mail Address and/or Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestLogin@3b96c42e]" started-at="2024-02-13T12:18:08 BDT" name="quiteBrowser" finished-at="2024-02-13T12:18:08 BDT" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+      </class> <!-- testcases.TestLogin -->
+      <class name="testcases.TestRegister">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:17:17 BDT" name="openABrowser" finished-at="2024-02-13T12:17:20 BDT" duration-ms="3367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:17:20 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:17:42 BDT" duration-ms="21326" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +256,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:31:47 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:32:20 BDT" duration-ms="32740" status="FAIL">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:17:42 BDT" name="quiteBrowser" finished-at="2024-02-13T12:17:42 BDT" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:17:42 BDT" name="openABrowser" finished-at="2024-02-13T12:17:44 BDT" duration-ms="1694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:17:44 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:18:32 BDT" duration-ms="48460" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -118,9 +320,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='First Name must be between 2 and 32 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2]]>
+Command: [5e063b1e4931c9ad0f28cc7d46252302, findElement {using=xpath, value=//span[normalize-space()='First Name must be between 2 and 32 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5630}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5630/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e063b1e4931c9ad0f28cc7d46252302]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='First Name must be between 2 and 32 characters!']"}
@@ -129,9 +331,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='First Name must be between 2 and 32 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2
+Command: [5e063b1e4931c9ad0f28cc7d46252302, findElement {using=xpath, value=//span[normalize-space()='First Name must be between 2 and 32 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5630}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5630/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e063b1e4931c9ad0f28cc7d46252302
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -162,29 +364,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:32:20 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:32:53 BDT" duration-ms="32820" status="FAIL">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:18:32 BDT" name="quiteBrowser" finished-at="2024-02-13T12:18:32 BDT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:18:32 BDT" name="openABrowser" finished-at="2024-02-13T12:18:34 BDT" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:18:34 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:19:17 BDT" duration-ms="43048" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -240,9 +437,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='First Name must be between 2 and 32 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2]]>
+Command: [0e9c4030ebf83cd89f7a17cd5eadcdb0, findElement {using=xpath, value=//span[normalize-space()='First Name must be between 2 and 32 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5787}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5787/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e9c4030ebf83cd89f7a17cd5eadcdb0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='First Name must be between 2 and 32 characters!']"}
@@ -251,9 +448,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='First Name must be between 2 and 32 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2
+Command: [0e9c4030ebf83cd89f7a17cd5eadcdb0, findElement {using=xpath, value=//span[normalize-space()='First Name must be between 2 and 32 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5787}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5787/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e9c4030ebf83cd89f7a17cd5eadcdb0
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -284,29 +481,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:32:53 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:32:56 BDT" duration-ms="2985" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:19:17 BDT" name="quiteBrowser" finished-at="2024-02-13T12:19:17 BDT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:19:17 BDT" name="openABrowser" finished-at="2024-02-13T12:19:19 BDT" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:19:19 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:19:29 BDT" duration-ms="10347" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,7 +549,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:32:56 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:33:29 BDT" duration-ms="33115" status="FAIL">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:19:29 BDT" name="quiteBrowser" finished-at="2024-02-13T12:19:29 BDT" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:19:29 BDT" name="openABrowser" finished-at="2024-02-13T12:19:31 BDT" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:19:31 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:20:11 BDT" duration-ms="40330" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -413,9 +613,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='Last Name must be between 2 and 32 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2]]>
+Command: [c9ea570e184d231991774bf9166c1c58, findElement {using=xpath, value=//span[normalize-space()='Last Name must be between 2 and 32 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5893/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9ea570e184d231991774bf9166c1c58]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Last Name must be between 2 and 32 characters!']"}
@@ -424,9 +624,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='Last Name must be between 2 and 32 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2
+Command: [c9ea570e184d231991774bf9166c1c58, findElement {using=xpath, value=//span[normalize-space()='Last Name must be between 2 and 32 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5893/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9ea570e184d231991774bf9166c1c58
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -457,29 +657,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:33:29 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:34:03 BDT" duration-ms="33895" status="FAIL">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:20:11 BDT" name="quiteBrowser" finished-at="2024-02-13T12:20:11 BDT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:20:11 BDT" name="openABrowser" finished-at="2024-02-13T12:20:13 BDT" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:20:13 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:20:53 BDT" duration-ms="40629" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -535,9 +730,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='Last Name must be between 2 and 32 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2]]>
+Command: [b893ccc2254dacd81e44aceffa893703, findElement {using=xpath, value=//span[normalize-space()='Last Name must be between 2 and 32 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5951}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5951/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b893ccc2254dacd81e44aceffa893703]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Last Name must be between 2 and 32 characters!']"}
@@ -546,9 +741,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='Last Name must be between 2 and 32 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2
+Command: [b893ccc2254dacd81e44aceffa893703, findElement {using=xpath, value=//span[normalize-space()='Last Name must be between 2 and 32 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5951}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5951/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b893ccc2254dacd81e44aceffa893703
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -579,29 +774,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:34:03 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:34:06 BDT" duration-ms="3162" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:20:54 BDT" name="quiteBrowser" finished-at="2024-02-13T12:20:54 BDT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:20:54 BDT" name="openABrowser" finished-at="2024-02-13T12:20:55 BDT" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:20:55 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:21:05 BDT" duration-ms="10068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -652,7 +842,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:34:06 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:34:09 BDT" duration-ms="2656" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:21:05 BDT" name="quiteBrowser" finished-at="2024-02-13T12:21:06 BDT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:21:06 BDT" name="openABrowser" finished-at="2024-02-13T12:21:07 BDT" duration-ms="1826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:21:07 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:21:18 BDT" duration-ms="10317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -703,7 +901,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:34:09 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:34:12 BDT" duration-ms="2925" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:21:18 BDT" name="quiteBrowser" finished-at="2024-02-13T12:21:18 BDT" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:21:18 BDT" name="openABrowser" finished-at="2024-02-13T12:21:20 BDT" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:21:20 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:21:30 BDT" duration-ms="10084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -755,7 +961,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:34:12 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:34:44 BDT" duration-ms="32936" status="FAIL">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:21:30 BDT" name="quiteBrowser" finished-at="2024-02-13T12:21:30 BDT" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:21:30 BDT" name="openABrowser" finished-at="2024-02-13T12:21:32 BDT" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:21:32 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:22:12 BDT" duration-ms="40015" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -812,9 +1026,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//div[@class='panel-body']//div[2]//div[1]//div[2]//span[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2]]>
+Command: [76193b7bf6881e08ea64b92d613da75e, findElement {using=xpath, value=//div[@class='panel-body']//div[2]//div[1]//div[2]//span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6124/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76193b7bf6881e08ea64b92d613da75e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='panel-body']//div[2]//div[1]//div[2]//span[1]"}
@@ -823,9 +1037,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//div[@class='panel-body']//div[2]//div[1]//div[2]//span[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2
+Command: [76193b7bf6881e08ea64b92d613da75e, findElement {using=xpath, value=//div[@class='panel-body']//div[2]//div[1]//div[2]//span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6124/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76193b7bf6881e08ea64b92d613da75e
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -856,29 +1070,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:34:45 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:34:48 BDT" duration-ms="3666" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:22:12 BDT" name="quiteBrowser" finished-at="2024-02-13T12:22:12 BDT" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:22:12 BDT" name="openABrowser" finished-at="2024-02-13T12:22:13 BDT" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:22:13 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:22:24 BDT" duration-ms="10239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -930,7 +1139,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:34:48 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:35:21 BDT" duration-ms="32993" status="FAIL">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:22:24 BDT" name="quiteBrowser" finished-at="2024-02-13T12:22:24 BDT" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:22:24 BDT" name="openABrowser" finished-at="2024-02-13T12:22:25 BDT" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:22:25 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:23:05 BDT" duration-ms="39970" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -986,9 +1203,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='Address must be between 3 and 128 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2]]>
+Command: [45ae055804c479fb5020b475eda7a113, findElement {using=xpath, value=//span[normalize-space()='Address must be between 3 and 128 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6223/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45ae055804c479fb5020b475eda7a113]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Address must be between 3 and 128 characters!']"}
@@ -997,9 +1214,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='Address must be between 3 and 128 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2
+Command: [45ae055804c479fb5020b475eda7a113, findElement {using=xpath, value=//span[normalize-space()='Address must be between 3 and 128 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6223/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45ae055804c479fb5020b475eda7a113
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1030,29 +1247,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:35:21 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:35:54 BDT" duration-ms="33063" status="FAIL">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:23:05 BDT" name="quiteBrowser" finished-at="2024-02-13T12:23:05 BDT" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:23:05 BDT" name="openABrowser" finished-at="2024-02-13T12:23:07 BDT" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:23:07 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:23:47 BDT" duration-ms="40386" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1108,9 +1320,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='Address must be between 3 and 128 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2]]>
+Command: [057ef077082f1db677302fa8c2816b5a, findElement {using=xpath, value=//span[normalize-space()='Address must be between 3 and 128 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6281/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 057ef077082f1db677302fa8c2816b5a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Address must be between 3 and 128 characters!']"}
@@ -1119,9 +1331,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [820b0b93ee5d448dc283b10bfff6d8a2, findElement {using=xpath, value=//span[normalize-space()='Address must be between 3 and 128 characters!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6185/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 820b0b93ee5d448dc283b10bfff6d8a2
+Command: [057ef077082f1db677302fa8c2816b5a, findElement {using=xpath, value=//span[normalize-space()='Address must be between 3 and 128 characters!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6281/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 057ef077082f1db677302fa8c2816b5a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1152,29 +1364,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:35:54 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:35:57 BDT" duration-ms="3065" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:23:47 BDT" name="quiteBrowser" finished-at="2024-02-13T12:23:47 BDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:23:47 BDT" name="openABrowser" finished-at="2024-02-13T12:23:49 BDT" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:23:49 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:23:59 BDT" duration-ms="10150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1225,7 +1432,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:35:57 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:36:01 BDT" duration-ms="3364" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:23:59 BDT" name="quiteBrowser" finished-at="2024-02-13T12:23:59 BDT" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:23:59 BDT" name="openABrowser" finished-at="2024-02-13T12:24:01 BDT" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:01 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:24:11 BDT" duration-ms="9907" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1276,7 +1491,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:36:01 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:36:04 BDT" duration-ms="2933" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:11 BDT" name="quiteBrowser" finished-at="2024-02-13T12:24:11 BDT" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:11 BDT" name="openABrowser" finished-at="2024-02-13T12:24:12 BDT" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:12 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:24:22 BDT" duration-ms="9936" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1327,7 +1550,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:36:04 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:36:07 BDT" duration-ms="2939" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:22 BDT" name="quiteBrowser" finished-at="2024-02-13T12:24:22 BDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:22 BDT" name="openABrowser" finished-at="2024-02-13T12:24:24 BDT" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:24 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:24:34 BDT" duration-ms="10270" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1378,7 +1609,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:36:07 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:36:09 BDT" duration-ms="2724" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:34 BDT" name="quiteBrowser" finished-at="2024-02-13T12:24:34 BDT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:34 BDT" name="openABrowser" finished-at="2024-02-13T12:24:36 BDT" duration-ms="1405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:36 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:24:46 BDT" duration-ms="9896" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1429,7 +1668,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:36:09 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-12T23:36:12 BDT" duration-ms="2792" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:46 BDT" name="quiteBrowser" finished-at="2024-02-13T12:24:46 BDT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:46 BDT" name="openABrowser" finished-at="2024-02-13T12:24:47 BDT" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testWithInvalidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.openqa.selenium.By,java.lang.String)[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:47 BDT" name="testWithInvalidCredential" data-provider="invalidUserDataForRegister" finished-at="2024-02-13T12:24:57 BDT" duration-ms="9900" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1480,11 +1727,130 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCredential -->
-        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@14fc1f0]" started-at="2024-02-12T23:36:12 BDT" name="quiteBrowser" finished-at="2024-02-12T23:36:13 BDT" duration-ms="674" status="PASS">
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestRegister@1603cd68]" started-at="2024-02-13T12:24:57 BDT" name="quiteBrowser" finished-at="2024-02-13T12:24:57 BDT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quiteBrowser -->
       </class> <!-- testcases.TestRegister -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testcases.TestShoppingCart">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestShoppingCart@56928307]" started-at="2024-02-13T12:16:37 BDT" name="openABrowser" finished-at="2024-02-13T12:16:41 BDT" duration-ms="3660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testOpenShoppingCart()[pri:0, instance:testcases.TestShoppingCart@56928307]" started-at="2024-02-13T12:16:41 BDT" name="testOpenShoppingCart" finished-at="2024-02-13T12:17:12 BDT" duration-ms="30949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenShoppingCart -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestShoppingCart@56928307]" started-at="2024-02-13T12:16:43 BDT" name="openABrowser" finished-at="2024-02-13T12:16:48 BDT" duration-ms="4465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testRemoveProductFromCart()[pri:0, instance:testcases.TestShoppingCart@56928307]" started-at="2024-02-13T12:16:48 BDT" name="testRemoveProductFromCart" finished-at="2024-02-13T12:17:16 BDT" duration-ms="28250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProductFromCart -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestShoppingCart@56928307]" started-at="2024-02-13T12:17:03 BDT" name="openABrowser" finished-at="2024-02-13T12:17:07 BDT" duration-ms="4369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testUpdateCart()[pri:0, instance:testcases.TestShoppingCart@56928307]" started-at="2024-02-13T12:17:07 BDT" name="testUpdateCart" finished-at="2024-02-13T12:17:29 BDT" duration-ms="21485" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testcases.TestShoppingCart.testUpdateCart(TestShoppingCart.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateCart -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestShoppingCart@56928307]" started-at="2024-02-13T12:17:12 BDT" name="quiteBrowser" finished-at="2024-02-13T12:17:17 BDT" duration-ms="5475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestShoppingCart@56928307]" started-at="2024-02-13T12:17:16 BDT" name="quiteBrowser" finished-at="2024-02-13T12:17:17 BDT" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestShoppingCart@56928307]" started-at="2024-02-13T12:17:29 BDT" name="quiteBrowser" finished-at="2024-02-13T12:17:29 BDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+      </class> <!-- testcases.TestShoppingCart -->
+      <class name="testcases.TestProductAdd">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestProductAdd@600b90df]" started-at="2024-02-13T12:15:49 BDT" name="openABrowser" finished-at="2024-02-13T12:16:01 BDT" duration-ms="12301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestProductAdd@600b90df]" started-at="2024-02-13T12:15:49 BDT" name="openABrowser" finished-at="2024-02-13T12:15:58 BDT" duration-ms="9319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testSelectProduct()[pri:0, instance:testcases.TestProductAdd@600b90df]" started-at="2024-02-13T12:15:59 BDT" name="testSelectProduct" finished-at="2024-02-13T12:16:33 BDT" duration-ms="34766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectProduct -->
+        <test-method signature="testAddToCart()[pri:0, instance:testcases.TestProductAdd@600b90df]" started-at="2024-02-13T12:16:01 BDT" name="testAddToCart" finished-at="2024-02-13T12:16:42 BDT" duration-ms="40494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestProductAdd@600b90df]" started-at="2024-02-13T12:16:33 BDT" name="quiteBrowser" finished-at="2024-02-13T12:16:37 BDT" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestProductAdd@600b90df]" started-at="2024-02-13T12:16:42 BDT" name="quiteBrowser" finished-at="2024-02-13T12:16:43 BDT" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+      </class> <!-- testcases.TestProductAdd -->
+      <class name="testcases.TestCheckout">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestCheckout@5ba88be8]" started-at="2024-02-13T12:15:49 BDT" name="openABrowser" finished-at="2024-02-13T12:15:58 BDT" duration-ms="9337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testCheckout()[pri:0, instance:testcases.TestCheckout@5ba88be8]" started-at="2024-02-13T12:15:59 BDT" name="testCheckout" finished-at="2024-02-13T12:16:58 BDT" duration-ms="59248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout -->
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestCheckout@5ba88be8]" started-at="2024-02-13T12:16:31 BDT" name="openABrowser" finished-at="2024-02-13T12:16:34 BDT" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method signature="testOpenCheckout()[pri:0, instance:testcases.TestCheckout@5ba88be8]" started-at="2024-02-13T12:16:35 BDT" name="testOpenCheckout" finished-at="2024-02-13T12:17:11 BDT" duration-ms="36561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenCheckout -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestCheckout@5ba88be8]" started-at="2024-02-13T12:16:58 BDT" name="quiteBrowser" finished-at="2024-02-13T12:17:03 BDT" duration-ms="5077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.TestCheckout@5ba88be8]" started-at="2024-02-13T12:17:11 BDT" name="quiteBrowser" finished-at="2024-02-13T12:17:17 BDT" duration-ms="5934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+      </class> <!-- testcases.TestCheckout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
