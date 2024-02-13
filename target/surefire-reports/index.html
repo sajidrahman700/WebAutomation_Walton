@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods, 8 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestShoppingCart" class="method navigator-link" hash-for-method="testUpdateCart">testUpdateCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01000000000, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01000000000, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefa,,bax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...)">testWithInvalidCredential(tefa,,bax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, @@@@##, Bd@12345678, Bd@12345678, By.xpath: //s...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, @@@@##, Bd@12345678, Bd@12345678, By.xpath: //s...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, @@@##$, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...)">testWithInvalidCredential(tefabax, @@@##$, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, lay,,mro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...)">testWithInvalidCredential(tefabax, lay,,mro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, 123456, Bd@12345678, Bd@12345678, By.xpath: //s...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, 123456, Bd@12345678, Bd@12345678, By.xpath: //s...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(@@@##$, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: /...)">testWithInvalidCredential(@@@##$, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: /...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestProductAdd" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestCheckout" class="method navigator-link" hash-for-method="testCheckout">testCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestLogin" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials(favevi6671@konican.com, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.)">testLoginWithInvalidCredentials(favevi6671@konican.com, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestLogin" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials(favevi6671@konican.com, , ×
+Warning: No match for E-Mail Address and/or Password.)">testLoginWithInvalidCredentials(favevi6671@konican.com, , ×
+Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestLogin" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials(y587@58h5, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.)">testLoginWithInvalidCredentials(y587@58h5, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestLogin" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials(dfdr@dhr, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.)">testLoginWithInvalidCredentials(dfdr@dhr, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestLogin" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials(, , ×
+Warning: No match for E-Mail Address and/or Password.)">testLoginWithInvalidCredentials(, , ×
+Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestLogin" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials(, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.)">testLoginWithInvalidCredentials(, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestLogin" class="method navigator-link" hash-for-method="testLoginWithValidCredentials">testLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestCheckout" class="method navigator-link" hash-for-method="testOpenCheckout">testOpenCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestShoppingCart" class="method navigator-link" hash-for-method="testOpenShoppingCart">testOpenShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestShoppingCart" class="method navigator-link" hash-for-method="testRemoveProductFromCart">testRemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestProductAdd" class="method navigator-link" hash-for-method="testSelectProduct">testSelectProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd12345678, Bd12345678, By.xpath: //...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd12345678, Bd12345678, By.xpath: //...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, B@12345678, B@12345678, By.xpath: //...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, B@12345678, B@12345678, By.xpath: //...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd, Bd, By.xpath: //span[normalize-s...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd, Bd, By.xpath: //span[normalize-s...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01934578, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //d...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01934578, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, d@12345678, d@12345678, By.xpath: //...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, d@12345678, d@12345678, By.xpath: //...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, , 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-spac...)">testWithInvalidCredential(tefabax, laymro, , 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-spac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@1, By.xpath: //span[...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@1, By.xpath: //span[...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[...)">testWithInvalidCredential(, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@l, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[no...)">testWithInvalidCredential(tefabax, laymro, tefabax442@l, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[no...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@, Bd@, By.xpath: //span[normalize...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@, Bd@, By.xpath: //span[normalize...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, , tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span...)">testWithInvalidCredential(tefabax, , tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.TestRegister" class="method navigator-link" hash-for-method="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, , Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //div[@clas...)">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, , Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //div[@clas...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TestShoppingCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateCart">
+                  </a> <!-- testUpdateCart -->
+                  <span class="method-name">testUpdateCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testcases.TestShoppingCart.testUpdateCart(TestShoppingCart.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that user can update the cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TestRegister</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01000000000, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01000000000, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01000000000,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //div[@class='panel-body']//div[2]//div[1]//div[2]//span[1],Please enter 11 digits valid mobile number!
+(01XXXXXXXXX))</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1db86712a6aecd1ae035f8b97237cff0, findElement {using=xpath, value=//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10351}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10351/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db86712a6aecd1ae035f8b97237cff0
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefa,,bax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...)">
+                  </a> <!-- testWithInvalidCredential(tefa,,bax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefa,,bax,laymro,tefabax442@laymro.com,01923320029,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='First Name must be between 2 and 32 characters!'],First Name must be between 2 and 32 characters!)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [513f9d80f7730ed3033c6806cc83e965, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10089/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 513f9d80f7730ed3033c6806cc83e965
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, @@@@##, Bd@12345678, Bd@12345678, By.xpath: //s...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, @@@@##, Bd@12345678, Bd@12345678, By.xpath: //s...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01923320029,@@@@##,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='Address must be between 3 and 128 characters!'],Address must be between 3 and 128 characters!)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bac0287529dde92df46b803388e16023, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10428}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10428/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bac0287529dde92df46b803388e16023
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, @@@##$, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, @@@##$, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,@@@##$,tefabax442@laymro.com,01923320029,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='Last Name must be between 2 and 32 characters!'],Last Name must be between 2 and 32 characters!)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24b0c45662d205f5d70b0d0ff9aee910, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10165}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10165/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24b0c45662d205f5d70b0d0ff9aee910
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, lay,,mro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, lay,,mro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,lay,,mro,tefabax442@laymro.com,01923320029,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='Last Name must be between 2 and 32 characters!'],Last Name must be between 2 and 32 characters!)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9550eaae179f580d7658aed62b353274, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10205}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10205/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9550eaae179f580d7658aed62b353274
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, 123456, Bd@12345678, Bd@12345678, By.xpath: //s...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, 123456, Bd@12345678, Bd@12345678, By.xpath: //s...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01923320029,123456,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='Address must be between 3 and 128 characters!'],Address must be between 3 and 128 characters!)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f963ffae71c4b387d72e63c46f7a87c, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10470}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10470/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f963ffae71c4b387d72e63c46f7a87c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(@@@##$, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: /...)">
+                  </a> <!-- testWithInvalidCredential(@@@##$, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: /...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(@@@##$,laymro,tefabax442@laymro.com,01923320029,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='First Name must be between 2 and 32 characters!'],First Name must be between 2 and 32 characters!)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [680b610893aa03db72c611dcf22661ca, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:10054}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:10054/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 680b610893aa03db72c611dcf22661ca
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestShoppingCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenShoppingCart">
+                  </a> <!-- testOpenShoppingCart -->
+                  <span class="method-name">testOpenShoppingCart</span>
+                  <em>
+(Verify that shopping cart should open)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveProductFromCart">
+                  </a> <!-- testRemoveProductFromCart -->
+                  <span class="method-name">testRemoveProductFromCart</span>
+                  <em>
+(Verify that product should be remove from the cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestProductAdd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                  <em>
+(Verify that user can add product to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectProduct">
+                  </a> <!-- testSelectProduct -->
+                  <span class="method-name">testSelectProduct</span>
+                  <em>
+(Verify that user can select a product)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials(favevi6671@konican.com, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginWithInvalidCredentials(favevi6671@konican.com, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.) -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <span class="parameters">(favevi6671@konican.com,ergwe4776,×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                  <em>
+(Verifying login functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials(favevi6671@konican.com, , ×
+Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginWithInvalidCredentials(favevi6671@konican.com, , ×
+Warning: No match for E-Mail Address and/or Password.) -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <span class="parameters">(favevi6671@konican.com,,×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                  <em>
+(Verifying login functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials(y587@58h5, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginWithInvalidCredentials(y587@58h5, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.) -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <span class="parameters">(y587@58h5,ergwe4776,×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                  <em>
+(Verifying login functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials(dfdr@dhr, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginWithInvalidCredentials(dfdr@dhr, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.) -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <span class="parameters">(dfdr@dhr,Bd@12345678,×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                  <em>
+(Verifying login functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials(, , ×
+Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginWithInvalidCredentials(, , ×
+Warning: No match for E-Mail Address and/or Password.) -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <span class="parameters">(,,×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                  <em>
+(Verifying login functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials(, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginWithInvalidCredentials(, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.) -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <span class="parameters">(,Bd@12345678,×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                  <em>
+(Verifying login functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithValidCredentials">
+                  </a> <!-- testLoginWithValidCredentials -->
+                  <span class="method-name">testLoginWithValidCredentials</span>
+                  <em>
+(Verifying login functionality with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestRegister</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd12345678, Bd12345678, By.xpath: //...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd12345678, Bd12345678, By.xpath: //...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01923320029,Dhanmondi,Bd12345678,Bd12345678,By.xpath: //span[contains(text(),'Password must include at least one special charact')],Password must include at least one special character.)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, B@12345678, B@12345678, By.xpath: //...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, B@12345678, B@12345678, By.xpath: //...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01923320029,Dhanmondi,B@12345678,B@12345678,By.xpath: //span[contains(text(),'Password must include at least one lowercase lette')],Password must include at least one lowercase letter.)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd, Bd, By.xpath: //span[normalize-s...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd, Bd, By.xpath: //span[normalize-s...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01923320029,Dhanmondi,Bd,Bd,By.xpath: //span[normalize-space()='Password too short.'],Password too short.)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01934578, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //d...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01934578, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //d...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01934578,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //div[@class='panel-body']//div[2]//div[1]//div[2]//span[1],Please enter 11 digits valid mobile number!
+(01XXXXXXXXX))</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, d@12345678, d@12345678, By.xpath: //...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, d@12345678, d@12345678, By.xpath: //...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01923320029,Dhanmondi,d@12345678,d@12345678,By.xpath: //span[contains(text(),'Password must include at least one uppercase lette')],Password must include at least one uppercase letter.)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, , 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-spac...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, , 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-spac...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,,01923320029,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='E-Mail Address does not appear to be valid!'],E-Mail Address does not appear to be valid!)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@1, By.xpath: //span[...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@1, By.xpath: //span[...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01923320029,Dhanmondi,Bd@12345678,Bd@1,By.xpath: //span[normalize-space()='Password confirmation does not match password!'],Password confirmation does not match password!)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[...)">
+                  </a> <!-- testWithInvalidCredential(, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(,laymro,tefabax442@laymro.com,01923320029,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='First Name must be between 2 and 32 characters!'],First Name must be between 2 and 32 characters!)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@l, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[no...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@l, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[no...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@l,01923320029,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='E-Mail Address does not appear to be valid!'],E-Mail Address does not appear to be valid!)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@, Bd@, By.xpath: //span[normalize...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@, Bd@, By.xpath: //span[normalize...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,01923320029,Dhanmondi,Bd@,Bd@,By.xpath: //span[normalize-space()='Password must include at least one number.'],Password must include at least one number.)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, , tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, , tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,,tefabax442@laymro.com,01923320029,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //span[normalize-space()='Last Name must be between 2 and 32 characters!'],Last Name must be between 2 and 32 characters!)</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, , Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //div[@clas...)">
+                  </a> <!-- testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, , Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //div[@clas...) -->
+                  <span class="method-name">testWithInvalidCredential</span>
+                  <span class="parameters">(tefabax,laymro,tefabax442@laymro.com,,Dhanmondi,Bd@12345678,Bd@12345678,By.xpath: //div[@class='panel-body']//div[2]//div[1]//div[2]//span[1],Please enter 11 digits valid mobile number!
+(01XXXXXXXXX))</span>
+                  <em>
+(Verify Register functionality with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestCheckout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckout">
+                  </a> <!-- testCheckout -->
+                  <span class="method-name">testCheckout</span>
+                  <em>
+(Verify that user can perform checkout process)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenCheckout">
+                  </a> <!-- testOpenCheckout -->
+                  <span class="method-name">testOpenCheckout</span>
+                  <em>
+(Verify that user should open checkout option)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TestCheckout&quot;/&gt;
+      &lt;class name=&quot;testcases.TestLogin&quot;/&gt;
+      &lt;class name=&quot;testcases.TestProductAdd&quot;/&gt;
+      &lt;class name=&quot;testcases.TestRegister&quot;/&gt;
+      &lt;class name=&quot;testcases.TestShoppingCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testWithInvalidCredential')
+data.setCell(0, 2, 'testcases.TestRegister')
+data.setCell(0, 3, 45039);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testWithInvalidCredential')
+data.setCell(1, 2, 'testcases.TestRegister')
+data.setCell(1, 3, 44069);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testWithInvalidCredential')
+data.setCell(2, 2, 'testcases.TestRegister')
+data.setCell(2, 3, 42084);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testWithInvalidCredential')
+data.setCell(3, 2, 'testcases.TestRegister')
+data.setCell(3, 3, 41703);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testWithInvalidCredential')
+data.setCell(4, 2, 'testcases.TestRegister')
+data.setCell(4, 3, 41303);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testWithInvalidCredential')
+data.setCell(5, 2, 'testcases.TestRegister')
+data.setCell(5, 3, 41302);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testWithInvalidCredential')
+data.setCell(6, 2, 'testcases.TestRegister')
+data.setCell(6, 3, 40488);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testWithInvalidCredential')
+data.setCell(7, 2, 'testcases.TestRegister')
+data.setCell(7, 3, 18725);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCheckout')
+data.setCell(8, 2, 'testcases.TestCheckout')
+data.setCell(8, 3, 17121);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testRemoveProductFromCart')
+data.setCell(9, 2, 'testcases.TestShoppingCart')
+data.setCell(9, 3, 15840);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginWithInvalidCredentials')
+data.setCell(10, 2, 'testcases.TestLogin')
+data.setCell(10, 3, 14148);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testWithInvalidCredential')
+data.setCell(11, 2, 'testcases.TestRegister')
+data.setCell(11, 3, 14085);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testOpenCheckout')
+data.setCell(12, 2, 'testcases.TestCheckout')
+data.setCell(12, 3, 13458);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLoginWithInvalidCredentials')
+data.setCell(13, 2, 'testcases.TestLogin')
+data.setCell(13, 3, 13338);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testWithInvalidCredential')
+data.setCell(14, 2, 'testcases.TestRegister')
+data.setCell(14, 3, 12951);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testOpenShoppingCart')
+data.setCell(15, 2, 'testcases.TestShoppingCart')
+data.setCell(15, 3, 12930);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testWithInvalidCredential')
+data.setCell(16, 2, 'testcases.TestRegister')
+data.setCell(16, 3, 12845);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testWithInvalidCredential')
+data.setCell(17, 2, 'testcases.TestRegister')
+data.setCell(17, 3, 12842);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testUpdateCart')
+data.setCell(18, 2, 'testcases.TestShoppingCart')
+data.setCell(18, 3, 12705);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testWithInvalidCredential')
+data.setCell(19, 2, 'testcases.TestRegister')
+data.setCell(19, 3, 12501);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testWithInvalidCredential')
+data.setCell(20, 2, 'testcases.TestRegister')
+data.setCell(20, 3, 12369);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testLoginWithInvalidCredentials')
+data.setCell(21, 2, 'testcases.TestLogin')
+data.setCell(21, 3, 12334);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testWithInvalidCredential')
+data.setCell(22, 2, 'testcases.TestRegister')
+data.setCell(22, 3, 11694);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testLoginWithInvalidCredentials')
+data.setCell(23, 2, 'testcases.TestLogin')
+data.setCell(23, 3, 11658);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testAddToCart')
+data.setCell(24, 2, 'testcases.TestProductAdd')
+data.setCell(24, 3, 11565);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testLoginWithInvalidCredentials')
+data.setCell(25, 2, 'testcases.TestLogin')
+data.setCell(25, 3, 11475);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testWithInvalidCredential')
+data.setCell(26, 2, 'testcases.TestRegister')
+data.setCell(26, 3, 10975);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testWithInvalidCredential')
+data.setCell(27, 2, 'testcases.TestRegister')
+data.setCell(27, 3, 10857);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testWithInvalidCredential')
+data.setCell(28, 2, 'testcases.TestRegister')
+data.setCell(28, 3, 10751);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testWithInvalidCredential')
+data.setCell(29, 2, 'testcases.TestRegister')
+data.setCell(29, 3, 10650);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testLoginWithInvalidCredentials')
+data.setCell(30, 2, 'testcases.TestLogin')
+data.setCell(30, 3, 10367);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testLoginWithValidCredentials')
+data.setCell(31, 2, 'testcases.TestLogin')
+data.setCell(31, 3, 9913);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testSelectProduct')
+data.setCell(32, 2, 'testcases.TestProductAdd')
+data.setCell(32, 3, 8353);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestCheckout</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckout</span>
+                <span class="method-start">1971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">19101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">19341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOpenCheckout</span>
+                <span class="method-start">20477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">33937 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">34260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidCredentials(favevi6671@konican.com, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                <span class="method-start">35529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">45898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">46083 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidCredentials(dfdr@dhr, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                <span class="method-start">47248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">60596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">60804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidCredentials(y587@58h5, ergwe4776, ×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                <span class="method-start">61988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">73465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">73671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidCredentials(, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                <span class="method-start">74895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">86562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">86799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidCredentials(favevi6671@konican.com, , ×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                <span class="method-start">88066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">100417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">100698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidCredentials(, , ×
+Warning: No match for E-Mail Address and/or Password.)</span>
+                <span class="method-start">101885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">116035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">116235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithValidCredentials</span>
+                <span class="method-start">117391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">127305 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestProductAdd</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">127529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">128672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">140240 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">140493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectProduct</span>
+                <span class="method-start">141652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">150006 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestRegister</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">150234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[...)</span>
+                <span class="method-start">151402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">162379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">162586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithInvalidCredential(@@@##$, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: /...)</span>
+                <span class="method-start">163723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">208768 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">208987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithInvalidCredential(tefa,,bax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...)</span>
+                <span class="method-start">210389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">252097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">252316 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, , tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span...)</span>
+                <span class="method-start">253524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">264176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">264474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithInvalidCredential(tefabax, @@@##$, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...)</span>
+                <span class="method-start">265678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">309756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">309974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithInvalidCredential(tefabax, lay,,mro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath...)</span>
+                <span class="method-start">311556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">353655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">353866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, , 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-spac...)</span>
+                <span class="method-start">355017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">367970 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">368202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@l, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[no...)</span>
+                <span class="method-start">369365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">383459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">383707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, , Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //div[@clas...)</span>
+                <span class="method-start">385200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">396058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">396316 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01000000000, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: ...)</span>
+                <span class="method-start">397911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">438417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">438641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01934578, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //d...)</span>
+                <span class="method-start">439784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">452286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">452508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, @@@@##, Bd@12345678, Bd@12345678, By.xpath: //s...)</span>
+                <span class="method-start">453627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">494936 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">495170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, 123456, Bd@12345678, Bd@12345678, By.xpath: //s...)</span>
+                <span class="method-start">496327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">537639 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">537872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd, Bd, By.xpath: //span[normalize-s...)</span>
+                <span class="method-start">539060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">549812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">550037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, d@12345678, d@12345678, By.xpath: //...)</span>
+                <span class="method-start">551180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">563550 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">563801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, B@12345678, B@12345678, By.xpath: //...)</span>
+                <span class="method-start">564992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">577850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">578085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@, Bd@, By.xpath: //span[normalize...)</span>
+                <span class="method-start">579243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">590939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">591139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd12345678, Bd12345678, By.xpath: //...)</span>
+                <span class="method-start">592324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">611050 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">611260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidCredential(tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@1, By.xpath: //span[...)</span>
+                <span class="method-start">612464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">625310 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestShoppingCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">625544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOpenShoppingCart</span>
+                <span class="method-start">626656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">639588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">639820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveProductFromCart</span>
+                <span class="method-start">640951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">656800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openABrowser</span>
+                <span class="method-start">657011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testUpdateCart</span>
+                <span class="method-start">658504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteBrowser</span>
+                <span class="method-start">671221 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

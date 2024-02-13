@@ -3,6 +3,9 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import pages.AccountPage;
 import pages.HomePage;
 import pages.LoginPage;
@@ -17,7 +20,9 @@ public class TestLogin extends DriverSetup {
 	AccountPage accountPage = new AccountPage();
 	
 	
-	@Test
+	@Test(description = "Verifying login functionality with valid credentials")
+	@Description("User should be allowed to login with valid email and password")
+	@Severity(SeverityLevel.CRITICAL)
 	public void testLoginWithValidCredentials() {
 		getBrowser().get(homePage.homePageURL);
 		homePage.clickOnElement(homePage.myAccountDropdown);
@@ -30,7 +35,9 @@ public class TestLogin extends DriverSetup {
 	}
 	
 	
-	@Test(dataProvider = "invalidUserDataForLogin", dataProviderClass = DataSet.class)
+	@Test(description = "Verifying login functionality with invalid credentials", dataProvider = "invalidUserDataForLogin", dataProviderClass = DataSet.class)
+	@Description("User should not be allowed to login with invalid email and password")
+	@Severity(SeverityLevel.CRITICAL)
 	public void testLoginWithInvalidCredentials(String email, String password, String displayErrorMsg) {
 		getBrowser().get(homePage.homePageURL);
 		homePage.clickOnElement(homePage.myAccountDropdown);

@@ -3,6 +3,7 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.ProductPage;
@@ -14,7 +15,8 @@ public class TestProductAdd extends DriverSetup {
 	LoginPage loginPage = new LoginPage();
 	HomePage homePage = new HomePage();
 	
-	@Test
+	@Test(description = "Verify that user can select a product")
+	@Description("After click on a product, Product Description page should be shown")
 	public void testSelectProduct(){
 		
 		loginPage.doLogin(loginPage.email, loginPage.password);
@@ -27,7 +29,8 @@ public class TestProductAdd extends DriverSetup {
 		
 	}
 	
-	@Test
+	@Test(description = "Verify that user can add product to cart")
+	@Description("After add a product to cart,A success message should be displayed")
 	public void testAddToCart() throws InterruptedException{
 		loginPage.doLogin(loginPage.email, loginPage.password);
 		homePage.clickOnElement(homePage.refrigeratorFreezerDropdown);

@@ -3,6 +3,7 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
 import pages.CheckoutPage;
 import pages.HomePage;
 import pages.LoginPage;
@@ -19,7 +20,8 @@ public class TestCheckout extends DriverSetup{
 	CheckoutPage checkOutPage = new CheckoutPage();
 	
 	
-	@Test
+	@Test(description = "Verify that user should open checkout option")
+	@Description("After clicking the checkout button the checkout page opens")
 	public void testOpenCheckout(){
 		loginPage.doLogin(loginPage.email, loginPage.password);
 		homePage.clickOnElement(homePage.refrigeratorFreezerDropdown);
@@ -32,7 +34,8 @@ public class TestCheckout extends DriverSetup{
 		Assert.assertTrue(checkOutPage.getElement(checkOutPage.billingAddressContinueButton).isDisplayed());
 		
 	}
-	@Test
+	@Test(description = "Verify that user can perform checkout process")
+	@Description("Confirm order button should be displayed")
 	public void testCheckout() throws InterruptedException{
 		loginPage.doLogin(loginPage.email, loginPage.password);
 		homePage.clickOnElement(homePage.refrigeratorFreezerDropdown);

@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import pages.HomePage;
 import pages.RegisterPage;
 import utilities.DataSet;
@@ -14,7 +17,9 @@ public class TestRegister extends DriverSetup {
 	HomePage homePage = new HomePage();
 	RegisterPage registerPage = new RegisterPage();
 	
-	@Test(dataProvider = "invalidUserDataForRegister", dataProviderClass = DataSet.class)
+	@Test(description = "Verify Register functionality with invalid credentials", dataProvider = "invalidUserDataForRegister", dataProviderClass = DataSet.class)
+	@Description("User should not be allowed to Register with invalid data")
+	@Severity(SeverityLevel.CRITICAL)
 	public void testWithInvalidCredential(String firstName, String lastName, String email, String mobile, String address, String password, String confirmPassword, By locator, String displayErrorMsg ){
 		getBrowser().get(homePage.homePageURL);
 		homePage.clickOnElement(homePage.myAccountDropdown);

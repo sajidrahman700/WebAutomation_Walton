@@ -3,6 +3,7 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.ProductPage;
@@ -15,7 +16,8 @@ public class TestShoppingCart extends DriverSetup{
 	HomePage homePage = new HomePage();
 	ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
 	
-	@Test
+	@Test(description = "Verify that shopping cart should open")
+	@Description("Shopping cart is opened and display remove product option after clicking the shopping cart button")
 	public void testOpenShoppingCart() {
 		loginPage.doLogin(loginPage.email, loginPage.password);
 		homePage.clickOnElement(homePage.refrigeratorFreezerDropdown);
@@ -29,7 +31,8 @@ public class TestShoppingCart extends DriverSetup{
 	}
 	
 	
-	@Test
+	@Test(description = "Verify that user can update the cart")
+	@Description("Quantity option should be enabled and should update the cart")
 	public void testUpdateCart() {
 		loginPage.doLogin(loginPage.email, loginPage.password);
 		homePage.clickOnElement(homePage.refrigeratorFreezerDropdown);
@@ -44,7 +47,8 @@ public class TestShoppingCart extends DriverSetup{
 		Assert.assertEquals(shoppingCartPage.getAttributeValue(shoppingCartPage.quantityInputField,"value"), 1);*/
 	}
 	
-	@Test
+	@Test(description = "Verify that product should be remove from the cart")
+	@Description("After remove the product a Cart Empty alert should be displayed")
 	public void testRemoveProductFromCart() {
 		loginPage.doLogin(loginPage.email, loginPage.password);
 		homePage.clickOnElement(homePage.refrigeratorFreezerDropdown);
