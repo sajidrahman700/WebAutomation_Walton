@@ -1,5 +1,5 @@
 # WebAutomation_Walton
- Perform WebAutomation with Selenium in Walton website. And generate a Allure Report.
+ Perform WebAutomation with Selenium in Walton website. And generate an Allure Report.
 
  ## Screenshots
 
