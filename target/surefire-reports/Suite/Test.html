@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>24/9/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Feb 14 02:18:19 BDT 2024</td>
+<td>Started on:</td><td>Wed Feb 14 10:15:02 BDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>565 seconds (565957 ms)</td>
+<tr><td>Total time:</td><td>530 seconds (530878 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, 123456, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='Address must be between 3 and 128 characters!'], Address must be between 3 and 128 characters!</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
+<td title='testcases.TestShoppingCart.testOpenShoppingCart()'><b>testOpenShoppingCart</b><br>Test class: testcases.TestShoppingCart<br>Test method: Verify that shopping cart should open</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;btn btn-lg btn-primary flamon_btn&quot; href=&quot;index.php?route=checkout/cart&quot;&gt;...&lt;/a&gt; is not clickable at point (1158, 889). Other element would receive the click: &lt;input class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;quantity&quot; size=&quot;2&quot; value=&quot;0&quot; oninput=&quot;checkAvailInStock()&quot; id=&quot;quantity&quot; style=&quot;display: block;&quot;&gt;
   (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [67d63f70a20185f2364db0fae41a104c, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12229}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12229/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67d63f70a20185f2364db0fae41a104c
+Command: [75fefbd6db6dd2fafe78773ced9baad0, clickElement {id=80F3B295F97EB0141BB8F021A15D8538_element_7855}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5325/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (75fefbd6db6dd2fafe78773ced9baad0)] -&gt; xpath: //a[normalize-space()=&apos;Shopping Cart&apos;]]
+Session ID: 75fefbd6db6dd2fafe78773ced9baad0
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -93,25 +93,23 @@ Session ID: 67d63f70a20185f2364db0fae41a104c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages.BasePage.clickOnElement(BasePage.java:28)
+	at testcases.TestShoppingCart.testOpenShoppingCart(TestShoppingCart.java:27)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1679996083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1679996083'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace770984853", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace770984853'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;btn btn-lg btn-primary flamon_btn&quot; href=&quot;index.php?route=checkout/cart&quot;&gt;...&lt;/a&gt; is not clickable at point (1158, 889). Other element would receive the click: &lt;input class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;quantity&quot; size=&quot;2&quot; value=&quot;0&quot; oninput=&quot;checkAvailInStock()&quot; id=&quot;quantity&quot; style=&quot;display: block;&quot;&gt;
   (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [67d63f70a20185f2364db0fae41a104c, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12229}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12229/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67d63f70a20185f2364db0fae41a104c
+Command: [75fefbd6db6dd2fafe78773ced9baad0, clickElement {id=80F3B295F97EB0141BB8F021A15D8538_element_7855}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5325/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (75fefbd6db6dd2fafe78773ced9baad0)] -&gt; xpath: //a[normalize-space()=&apos;Shopping Cart&apos;]]
+Session ID: 75fefbd6db6dd2fafe78773ced9baad0
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -122,12 +120,10 @@ Session ID: 67d63f70a20185f2364db0fae41a104c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages.BasePage.clickOnElement(BasePage.java:28)
+	at testcases.TestShoppingCart.testOpenShoppingCart(TestShoppingCart.java:27)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -142,19 +138,49 @@ Session ID: 67d63f70a20185f2364db0fae41a104c
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 </pre></div></td>
-<td>42</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
+<td>29</td>
+<td>testcases.TestShoppingCart@7a35b0f5</td></tr>
 <tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: @@@##$, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='First Name must be between 2 and 32 characters!'], First Name must be between 2 and 32 characters!</td>
+<td title='testcases.TestShoppingCart.testUpdateCart()'><b>testUpdateCart</b><br>Test class: testcases.TestShoppingCart<br>Test method: Verify that user can update the cart</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testcases.TestShoppingCart.testUpdateCart(TestShoppingCart.java:44)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1864408020", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1864408020'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testcases.TestShoppingCart.testUpdateCart(TestShoppingCart.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+</pre></div></td>
+<td>26</td>
+<td>testcases.TestShoppingCart@7a35b0f5</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefa,,bax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid first name, By.xpath: //span[normalize-space()='First Name must be between 2 and 32 characters!'], First Name must be between 2 and 32 characters!</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]&quot;}
   (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee07b336cd2816db3bfac5e8e117aa0b, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11733/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee07b336cd2816db3bfac5e8e117aa0b
+Command: [a3e3201823a3437fc54ab792da4aa860, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5754/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3e3201823a3437fc54ab792da4aa860
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -167,20 +193,20 @@ Session ID: ee07b336cd2816db3bfac5e8e117aa0b
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
 	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace871058217", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace871058217'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]&quot;}
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace232916454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace232916454'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]&quot;}
   (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee07b336cd2816db3bfac5e8e117aa0b, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11733/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee07b336cd2816db3bfac5e8e117aa0b
+Command: [a3e3201823a3437fc54ab792da4aa860, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5754/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3e3201823a3437fc54ab792da4aa860
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -196,214 +222,7 @@ Session ID: ee07b336cd2816db3bfac5e8e117aa0b
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
 	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-</pre></div></td>
-<td>45</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefa,,bax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='First Name must be between 2 and 32 characters!'], First Name must be between 2 and 32 characters!</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]&quot;}
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4b2f93fe0472e443967d8877cb01869, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11846/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4b2f93fe0472e443967d8877cb01869
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1419982864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1419982864'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]&quot;}
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4b2f93fe0472e443967d8877cb01869, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11846/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4b2f93fe0472e443967d8877cb01869
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-</pre></div></td>
-<td>40</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, lay,,mro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='Last Name must be between 2 and 32 characters!'], Last Name must be between 2 and 32 characters!</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ce94d3b5e46887dbb7a992be95706bf4, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11968}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11968/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce94d3b5e46887dbb7a992be95706bf4
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1980625592", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1980625592'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ce94d3b5e46887dbb7a992be95706bf4, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11968}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11968/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce94d3b5e46887dbb7a992be95706bf4
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-</pre></div></td>
-<td>42</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, @@@@##, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='Address must be between 3 and 128 characters!'], Address must be between 3 and 128 characters!</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4ad9135a208b9b0ec0a3c483a15234ff, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12187}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12187/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4ad9135a208b9b0ec0a3c483a15234ff
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace838190160", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace838190160'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4ad9135a208b9b0ec0a3c483a15234ff, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12187}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12187/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4ad9135a208b9b0ec0a3c483a15234ff
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -421,46 +240,16 @@ Session ID: 4ad9135a208b9b0ec0a3c483a15234ff
 <td>41</td>
 <td>testcases.TestRegister@2cb4893b</td></tr>
 <tr>
-<td title='testcases.TestShoppingCart.testUpdateCart()'><b>testUpdateCart</b><br>Test class: testcases.TestShoppingCart<br>Test method: Verify that user can update the cart</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testcases.TestShoppingCart.testUpdateCart(TestShoppingCart.java:43)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1612668231", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1612668231'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testcases.TestShoppingCart.testUpdateCart(TestShoppingCart.java:43)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-</pre></div></td>
-<td>25</td>
-<td>testcases.TestShoppingCart@7a35b0f5</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, @@@##$, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='Last Name must be between 2 and 32 characters!'], Last Name must be between 2 and 32 characters!</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, @@@@##, Bd@12345678, Bd@12345678, Entering invalid address, By.xpath: //span[normalize-space()='Address must be between 3 and 128 characters!'], Address must be between 3 and 128 characters!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
   (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [29792317dd76bded5716625b523055c9, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11926}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11926/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 29792317dd76bded5716625b523055c9
+Command: [e02a83d5ce79977bf087b75802fabcb7, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6121/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e02a83d5ce79977bf087b75802fabcb7
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -473,20 +262,20 @@ Session ID: 29792317dd76bded5716625b523055c9
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
 	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace246530010", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace246530010'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace697273545", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace697273545'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
   (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [29792317dd76bded5716625b523055c9, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11926}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11926/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 29792317dd76bded5716625b523055c9
+Command: [e02a83d5ce79977bf087b75802fabcb7, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6121/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e02a83d5ce79977bf087b75802fabcb7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -502,7 +291,76 @@ Session ID: 29792317dd76bded5716625b523055c9
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
 	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+</pre></div></td>
+<td>40</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, 123456, Bd@12345678, Bd@12345678, Entering invalid address, By.xpath: //span[normalize-space()='Address must be between 3 and 128 characters!'], Address must be between 3 and 128 characters!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a83c530ff5b971b6d3e257b27037d5d5, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6165}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6165/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a83c530ff5b971b6d3e257b27037d5d5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1482944213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1482944213'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a83c530ff5b971b6d3e257b27037d5d5, findElement {using=xpath, value=//span[normalize-space()=&apos;Address must be between 3 and 128 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6165}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6165/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a83c530ff5b971b6d3e257b27037d5d5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -520,16 +378,17 @@ Session ID: 29792317dd76bded5716625b523055c9
 <td>42</td>
 <td>testcases.TestRegister@2cb4893b</td></tr>
 <tr>
-<td title='testcases.TestProductAdd.testSelectProduct()'><b>testSelectProduct</b><br>Test class: testcases.TestProductAdd<br>Test method: Verify that user can select a product</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01000000000, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid mobile number, By.xpath: //div[@class='panel-body']//div[2]//div[1]//div[2]//span[1], Please enter 11 digits valid mobile number!
+(01XXXXXXXXX)</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]&quot;}
   (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9ad01d3697d60bcb0cb1e24c9a1c49bb, clickElement {id=25B8068936C58F439B82C37A65DFEE7C_element_1892}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11131}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11131/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9ad01d3697d60bcb0cb1e24c9a1c49bb)] -&gt; xpath: //a[normalize-space()=&apos;Non-Frost Refrigerator&apos;]]
-Session ID: 9ad01d3697d60bcb0cb1e24c9a1c49bb
+Command: [dd7170ba279fb43a650bf57a5a2fced1, findElement {using=xpath, value=//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6039}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6039/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd7170ba279fb43a650bf57a5a2fced1
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -537,23 +396,25 @@ Session ID: 9ad01d3697d60bcb0cb1e24c9a1c49bb
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at pages.BasePage.clickOnElement(BasePage.java:28)
-	at testcases.TestProductAdd.testSelectProduct(TestProductAdd.java:24)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace697967620", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace697967620'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace622899641", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace622899641'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]&quot;}
   (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9ad01d3697d60bcb0cb1e24c9a1c49bb, clickElement {id=25B8068936C58F439B82C37A65DFEE7C_element_1892}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:11131}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:11131/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9ad01d3697d60bcb0cb1e24c9a1c49bb)] -&gt; xpath: //a[normalize-space()=&apos;Non-Frost Refrigerator&apos;]]
-Session ID: 9ad01d3697d60bcb0cb1e24c9a1c49bb
+Command: [dd7170ba279fb43a650bf57a5a2fced1, findElement {using=xpath, value=//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6039}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6039/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd7170ba279fb43a650bf57a5a2fced1
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -564,10 +425,12 @@ Session ID: 9ad01d3697d60bcb0cb1e24c9a1c49bb
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at pages.BasePage.clickOnElement(BasePage.java:28)
-	at testcases.TestProductAdd.testSelectProduct(TestProductAdd.java:24)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -582,20 +445,19 @@ Session ID: 9ad01d3697d60bcb0cb1e24c9a1c49bb
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 </pre></div></td>
-<td>44</td>
-<td>testcases.TestProductAdd@563f38c4</td></tr>
+<td>40</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
 <tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01000000000, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //div[@class='panel-body']//div[2]//div[1]//div[2]//span[1], Please enter 11 digits valid mobile number!
-(01XXXXXXXXX)</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]&quot;}
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: @@@##$, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid first name, By.xpath: //span[normalize-space()='First Name must be between 2 and 32 characters!'], First Name must be between 2 and 32 characters!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]&quot;}
   (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [25c95e32acec08538d5bd781f0b47c2c, findElement {using=xpath, value=//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12110}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12110/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 25c95e32acec08538d5bd781f0b47c2c
+Command: [78b01a4ca48d74aba4c32d395882ad11, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5609/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78b01a4ca48d74aba4c32d395882ad11
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -608,20 +470,20 @@ Session ID: 25c95e32acec08538d5bd781f0b47c2c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
 	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1799715051", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1799715051'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]&quot;}
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2002102639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2002102639'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]&quot;}
   (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [25c95e32acec08538d5bd781f0b47c2c, findElement {using=xpath, value=//div[@class=&apos;panel-body&apos;]//div[2]//div[1]//div[2]//span[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12110}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12110/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 25c95e32acec08538d5bd781f0b47c2c
+Command: [78b01a4ca48d74aba4c32d395882ad11, findElement {using=xpath, value=//span[normalize-space()=&apos;First Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5609/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78b01a4ca48d74aba4c32d395882ad11
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -637,7 +499,145 @@ Session ID: 25c95e32acec08538d5bd781f0b47c2c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
 	at pages.BasePage.getElement(BasePage.java:23)
-	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:35)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+</pre></div></td>
+<td>42</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, lay,,mro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid last name, By.xpath: //span[normalize-space()='Last Name must be between 2 and 32 characters!'], Last Name must be between 2 and 32 characters!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d7ffbf820e365d3bc87c94ec9cc435e, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5882/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d7ffbf820e365d3bc87c94ec9cc435e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace207503573", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace207503573'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d7ffbf820e365d3bc87c94ec9cc435e, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5882/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d7ffbf820e365d3bc87c94ec9cc435e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+</pre></div></td>
+<td>41</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, @@@##$, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid last name, By.xpath: //span[normalize-space()='Last Name must be between 2 and 32 characters!'], Last Name must be between 2 and 32 characters!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [677bcd0d4d5f92cc4d1671d42b6c1035, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5842}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5842/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 677bcd0d4d5f92cc4d1671d42b6c1035
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1743586658", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1743586658'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [677bcd0d4d5f92cc4d1671d42b6c1035, findElement {using=xpath, value=//span[normalize-space()=&apos;Last Name must be between 2 and 32 characters!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5842}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5842/devtool..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 677bcd0d4d5f92cc4d1671d42b6c1035
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pages.BasePage.getElement(BasePage.java:23)
+	at testcases.TestRegister.testWithInvalidCredential(TestRegister.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -664,133 +664,133 @@ Session ID: 25c95e32acec08538d5bd781f0b47c2c
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.TestShoppingCart.testRemoveProductFromCart()'><b>testRemoveProductFromCart</b><br>Test class: testcases.TestShoppingCart<br>Test method: Verify that product should be remove from the cart</td>
+<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: , , ×
+Warning: No match for E-Mail Address and/or Password.</td>
 <td></td>
-<td>29</td>
-<td>testcases.TestShoppingCart@7a35b0f5</td></tr>
+<td>11</td>
+<td>testcases.TestLogin@606e4010</td></tr>
 <tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, , Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //div[@class='panel-body']//div[2]//div[1]//div[2]//span[1], Please enter 11 digits valid mobile number!
-(01XXXXXXXXX)</td>
+<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: , Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.</td>
+<td></td>
+<td>15</td>
+<td>testcases.TestLogin@606e4010</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, d@12345678, d@12345678, Entering invalid password, By.xpath: //span[contains(text(),'Password must include at least one uppercase lette')], Password must include at least one uppercase letter.</td>
 <td></td>
 <td>10</td>
 <td>testcases.TestRegister@2cb4893b</td></tr>
 <tr>
-<td title='testcases.TestCheckout.testOpenCheckout()'><b>testOpenCheckout</b><br>Test class: testcases.TestCheckout<br>Test method: Verify that user should open checkout option</td>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@, Bd@, Entering invalid password, By.xpath: //span[normalize-space()='Password must include at least one number.'], Password must include at least one number.</td>
 <td></td>
-<td>45</td>
+<td>10</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestCheckout.testCheckout()'><b>testCheckout</b><br>Test class: testcases.TestCheckout<br>Test method: Verify that user can perform checkout process</td>
+<td></td>
+<td>60</td>
 <td>testcases.TestCheckout@68c9133c</td></tr>
 <tr>
-<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: favevi6671@konican.com, , ×
-Warning: No match for E-Mail Address and/or Password.</td>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: , laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid first name, By.xpath: //span[normalize-space()='First Name must be between 2 and 32 characters!'], First Name must be between 2 and 32 characters!</td>
 <td></td>
-<td>12</td>
-<td>testcases.TestLogin@606e4010</td></tr>
-<tr>
-<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: y587@58h5, ergwe4776, ×
-Warning: No match for E-Mail Address and/or Password.</td>
-<td></td>
-<td>16</td>
-<td>testcases.TestLogin@606e4010</td></tr>
-<tr>
-<td title='testcases.TestLogin.testLoginWithValidCredentials()'><b>testLoginWithValidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with valid credentials</td>
-<td></td>
-<td>27</td>
-<td>testcases.TestLogin@606e4010</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd, Bd, By.xpath: //span[normalize-space()='Password too short.'], Password too short.</td>
-<td></td>
-<td>13</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: dfdr@dhr, Bd@12345678, ×
-Warning: No match for E-Mail Address and/or Password.</td>
-<td></td>
-<td>31</td>
-<td>testcases.TestLogin@606e4010</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd12345678, Bd12345678, By.xpath: //span[contains(text(),'Password must include at least one special charact')], Password must include at least one special character.</td>
-<td></td>
-<td>10</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@, Bd@, By.xpath: //span[normalize-space()='Password must include at least one number.'], Password must include at least one number.</td>
-<td></td>
-<td>14</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, , tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='Last Name must be between 2 and 32 characters!'], Last Name must be between 2 and 32 characters!</td>
-<td></td>
-<td>12</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, d@12345678, d@12345678, By.xpath: //span[contains(text(),'Password must include at least one uppercase lette')], Password must include at least one uppercase letter.</td>
-<td></td>
-<td>14</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01934578, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //div[@class='panel-body']//div[2]//div[1]//div[2]//span[1], Please enter 11 digits valid mobile number!
-(01XXXXXXXXX)</td>
-<td></td>
-<td>11</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestShoppingCart.testOpenShoppingCart()'><b>testOpenShoppingCart</b><br>Test class: testcases.TestShoppingCart<br>Test method: Verify that shopping cart should open</td>
-<td></td>
-<td>40</td>
-<td>testcases.TestShoppingCart@7a35b0f5</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, B@12345678, B@12345678, By.xpath: //span[contains(text(),'Password must include at least one lowercase lette')], Password must include at least one lowercase letter.</td>
-<td></td>
-<td>12</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@1, By.xpath: //span[normalize-space()='Password confirmation does not match password!'], Password confirmation does not match password!</td>
-<td></td>
-<td>11</td>
+<td>20</td>
 <td>testcases.TestRegister@2cb4893b</td></tr>
 <tr>
 <td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: favevi6671@konican.com, ergwe4776, ×
 Warning: No match for E-Mail Address and/or Password.</td>
 <td></td>
-<td>26</td>
+<td>30</td>
 <td>testcases.TestLogin@606e4010</td></tr>
 <tr>
-<td title='testcases.TestProductAdd.testAddToCart()'><b>testAddToCart</b><br>Test class: testcases.TestProductAdd<br>Test method: Verify that user can add product to cart</td>
+<td title='testcases.TestCheckout.testOpenCheckout()'><b>testOpenCheckout</b><br>Test class: testcases.TestCheckout<br>Test method: Verify that user should open checkout option</td>
 <td></td>
-<td>39</td>
-<td>testcases.TestProductAdd@563f38c4</td></tr>
-<tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@l, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='E-Mail Address does not appear to be valid!'], E-Mail Address does not appear to be valid!</td>
-<td></td>
-<td>11</td>
-<td>testcases.TestRegister@2cb4893b</td></tr>
-<tr>
-<td title='testcases.TestCheckout.testCheckout()'><b>testCheckout</b><br>Test class: testcases.TestCheckout<br>Test method: Verify that user can perform checkout process</td>
-<td></td>
-<td>59</td>
+<td>56</td>
 <td>testcases.TestCheckout@68c9133c</td></tr>
 <tr>
-<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: , Bd@12345678, ×
+<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: y587@58h5, ergwe4776, ×
 Warning: No match for E-Mail Address and/or Password.</td>
 <td></td>
 <td>20</td>
 <td>testcases.TestLogin@606e4010</td></tr>
 <tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, , 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='E-Mail Address does not appear to be valid!'], E-Mail Address does not appear to be valid!</td>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, , Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid mobile number, By.xpath: //div[@class='panel-body']//div[2]//div[1]//div[2]//span[1], Please enter 11 digits valid mobile number!
+(01XXXXXXXXX)</td>
+<td></td>
+<td>12</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: dfdr@dhr, Bd@12345678, ×
+Warning: No match for E-Mail Address and/or Password.</td>
+<td></td>
+<td>17</td>
+<td>testcases.TestLogin@606e4010</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@1, Entering not same password for confirm password, By.xpath: //span[normalize-space()='Password confirmation does not match password!'], Password confirmation does not match password!</td>
+<td></td>
+<td>10</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: favevi6671@konican.com, , ×
+Warning: No match for E-Mail Address and/or Password.</td>
+<td></td>
+<td>14</td>
+<td>testcases.TestLogin@606e4010</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, , 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid email, By.xpath: //span[normalize-space()='E-Mail Address does not appear to be valid!'], E-Mail Address does not appear to be valid!</td>
 <td></td>
 <td>11</td>
 <td>testcases.TestRegister@2cb4893b</td></tr>
 <tr>
-<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: , laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, By.xpath: //span[normalize-space()='First Name must be between 2 and 32 characters!'], First Name must be between 2 and 32 characters!</td>
+<td title='testcases.TestShoppingCart.testRemoveProductFromCart()'><b>testRemoveProductFromCart</b><br>Test class: testcases.TestShoppingCart<br>Test method: Verify that product should be remove from the cart</td>
 <td></td>
-<td>18</td>
+<td>31</td>
+<td>testcases.TestShoppingCart@7a35b0f5</td></tr>
+<tr>
+<td title='testcases.TestProductAdd.testAddToCart()'><b>testAddToCart</b><br>Test class: testcases.TestProductAdd<br>Test method: Verify that user can add product to cart</td>
+<td></td>
+<td>37</td>
+<td>testcases.TestProductAdd@563f38c4</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01934578, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid mobile number, By.xpath: //div[@class='panel-body']//div[2]//div[1]//div[2]//span[1], Please enter 11 digits valid mobile number!
+(01XXXXXXXXX)</td>
+<td></td>
+<td>10</td>
 <td>testcases.TestRegister@2cb4893b</td></tr>
 <tr>
-<td title='testcases.TestLogin.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with invalid credentials<br>Parameters: , , ×
-Warning: No match for E-Mail Address and/or Password.</td>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, , tefabax442@laymro.com, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid last name, By.xpath: //span[normalize-space()='Last Name must be between 2 and 32 characters!'], Last Name must be between 2 and 32 characters!</td>
 <td></td>
-<td>13</td>
+<td>10</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, B@12345678, B@12345678, Entering invalid password, By.xpath: //span[contains(text(),'Password must include at least one lowercase lette')], Password must include at least one lowercase letter.</td>
+<td></td>
+<td>11</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestLogin.testLoginWithValidCredentials()'><b>testLoginWithValidCredentials</b><br>Test class: testcases.TestLogin<br>Test method: Verifying login functionality with valid credentials</td>
+<td></td>
+<td>28</td>
 <td>testcases.TestLogin@606e4010</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd12345678, Bd12345678, Entering invalid password, By.xpath: //span[contains(text(),'Password must include at least one special charact')], Password must include at least one special character.</td>
+<td></td>
+<td>11</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestProductAdd.testSelectProduct()'><b>testSelectProduct</b><br>Test class: testcases.TestProductAdd<br>Test method: Verify that user can select a product</td>
+<td></td>
+<td>35</td>
+<td>testcases.TestProductAdd@563f38c4</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@laymro.com, 01923320029, Dhanmondi, Bd, Bd, Entering invalid password, By.xpath: //span[normalize-space()='Password too short.'], Password too short.</td>
+<td></td>
+<td>10</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
+<tr>
+<td title='testcases.TestRegister.testWithInvalidCredential()'><b>testWithInvalidCredential</b><br>Test class: testcases.TestRegister<br>Test method: Verify Register functionality with invalid credentials<br>Parameters: tefabax, laymro, tefabax442@l, 01923320029, Dhanmondi, Bd@12345678, Bd@12345678, Entering invalid email, By.xpath: //span[normalize-space()='E-Mail Address does not appear to be valid!'], E-Mail Address does not appear to be valid!</td>
+<td></td>
+<td>11</td>
+<td>testcases.TestRegister@2cb4893b</td></tr>
 </table><p>
 </body>
 </html>

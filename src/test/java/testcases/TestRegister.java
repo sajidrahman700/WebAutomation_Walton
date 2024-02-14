@@ -20,7 +20,7 @@ public class TestRegister extends DriverSetup {
 	@Test(description = "Verify Register functionality with invalid credentials", dataProvider = "invalidUserDataForRegister", dataProviderClass = DataSet.class)
 	@Description("User should not be allowed to Register with invalid data")
 	@Severity(SeverityLevel.CRITICAL)
-	public void testWithInvalidCredential(String firstName, String lastName, String email, String mobile, String address, String password, String confirmPassword, By locator, String displayErrorMsg ){
+	public void testWithInvalidCredential(String firstName, String lastName, String email, String mobile, String address, String password, String confirmPassword, String SsName, By locator, String displayErrorMsg ){
 		getBrowser().get(homePage.homePageURL);
 		homePage.clickOnElement(homePage.myAccountDropdown);
 		homePage.clickOnElement(homePage.registerDropdown_Menu);
@@ -32,8 +32,11 @@ public class TestRegister extends DriverSetup {
 		registerPage.writeOnAElement(registerPage.passwordInputField, password);
 		registerPage.writeOnAElement(registerPage.passwordConfirmInputField, confirmPassword);
 		registerPage.clickOnElement(registerPage.continueButton);
+		registerPage.takeScreenShot("SsName");
 		Assert.assertTrue(registerPage.getElement(locator).isDisplayed());
 		Assert.assertEquals(registerPage.getElementText(locator), displayErrorMsg );
+		
+		
 		
 	}
 

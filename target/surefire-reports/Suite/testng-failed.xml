@@ -8,15 +8,9 @@
           <include name="openABrowser"/>
           <include name="quiteBrowser"/>
           <include name="testUpdateCart"/>
+          <include name="testOpenShoppingCart"/>
         </methods>
       </class> <!-- testcases.TestShoppingCart -->
-      <class name="testcases.TestProductAdd">
-        <methods>
-          <include name="openABrowser"/>
-          <include name="quiteBrowser"/>
-          <include name="testSelectProduct"/>
-        </methods>
-      </class> <!-- testcases.TestProductAdd -->
       <class name="testcases.TestRegister">
         <methods>
           <include name="openABrowser"/>

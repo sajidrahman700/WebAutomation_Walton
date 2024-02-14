@@ -40,6 +40,7 @@ public class TestShoppingCart extends DriverSetup{
 		productPage.scrollToAElement(productPage.product_WNM2A7GDELXX);
 		productPage.addToCart(productPage.product_WNM2A7GDELXX, 1, 1, 1, 2);
 		productPage.clickOnElement(productPage.shoppingCartButton);
+		productPage.takeScreenShot("Quantity input field is enable or not");
 		Assert.assertTrue(shoppingCartPage.getElement(shoppingCartPage.quantityInputField).isEnabled());
 		/*shoppingCartPage.clearField(shoppingCartPage.quantityInputField);
 		shoppingCartPage.enterNumberOnAElement(shoppingCartPage.quantityInputField,1);

@@ -38,7 +38,7 @@
 
   </dependencies>
   
-   <build>
+  <!-- <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -48,11 +48,11 @@
           <suiteXmlFiles>
             <suiteXmlFile>${xmlFilename}</suiteXmlFile>
           </suiteXmlFiles>
-<!--          <includes>-->
-<!--            <include>${className}</include>-->
-<!--          </includes>-->
+          <includes>
+            <include>${className}</include>
+          </includes>
         </configuration>
       </plugin>
     </plugins>
-  </build>
+  </build>-->
 </project>
